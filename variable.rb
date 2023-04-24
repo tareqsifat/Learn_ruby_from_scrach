@@ -16,7 +16,16 @@ puts x #this will return 5
 # Global variable
 # normally declared with $ sign
 
-$globalVariable = 100
- puts $globalVariable
+
+$global = 100
+def globalVariable
+  x = 5
+  puts $global
+
+end
+
+globalVariable #this will return 100
+
+puts $global #this will return 100
 
 # Instance and class variable will dicsuss letter
