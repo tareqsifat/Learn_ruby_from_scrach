@@ -28,4 +28,36 @@ globalVariable #this will return 100
 
 puts $global #this will return 100
 
-# Instance and class variable will dicsuss letter
+# Class variable
+class MyClass
+  @@count = 0
+
+  def initialize
+    @@count += 1
+  end
+
+  def returnVariable
+    return @@count
+  end
+end
+
+my_object1 = MyClass.new
+puts my_object1.returnVariable #=> 1
+
+
+# Instance Variable
+ class MyClass
+  def set_name(name)
+    @name = name
+  end
+
+  def get_name
+    @name
+  end
+end
+
+my_object = MyClass.new
+my_object.set_name("Emmanual")
+puts my_object.get_name #=> "Emmanual"
+
+
