@@ -6,6 +6,7 @@ class Thing
        return @name
     end
 end
+
 class Treasure
     def initialize (aName, aDescription)
          @name = aName 
@@ -13,7 +14,7 @@ class Treasure
     end 
     def to_s #override default to_s method
        "The #{@name} Treasure is #{@description}\n"
-    end 
+    end
 end
 
 
