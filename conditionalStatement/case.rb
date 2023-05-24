@@ -12,13 +12,13 @@ end
 
 puts "================================================================"
 
-salary = 1
-season = 'summer'
+salary = 510000
+season = 'spring'
 happy = case
 when salary > 10000 && season == 'summer' then
     puts( "Yes, I really am happy!" )
     'Very happy'
-# when salary > 500000 && season == 'spring' then 'Pretty happy'
+when salary > 500000 && season == 'spring' then 'Pretty happy'
 else puts( 'miserable' )
 end
 puts( happy ) #=> 'Very happy'
