@@ -29,7 +29,7 @@ puts a[3][3]
 
 puts "================================================================"
 
-multiarr = [['one','two','three','four'],[1,2,3,4], ["absolute", "absolute2"]]
+multiarr = [['one','two','three','four'],[1,2,3,4], ["absolute", "absolute2","absolute", "absolute2"]]
 
 p multiarr[0]
 p multiarr[0][0]
@@ -49,9 +49,11 @@ for i in multiarr
 end
 
 puts "Iterating multidimensional arrays"
-for (a,b,c,d) in multiarr
-    print("a=#{a}, b=#{b}, c=#{c}, d=#{d}\n" )
-end
+key = ['a', 'b', 'c', 'd']
+multiarr.transpose.each do |values|
+    combined = Hash[key.zip(values)]
+    puts "a=#{combined['a']}, b=#{combined['b']}, c=#{combined['c']}, d=#{combined['d']}"
+  end
 print("\n")
 
 for s in multiarr[0]
