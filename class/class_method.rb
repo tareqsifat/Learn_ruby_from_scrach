@@ -42,5 +42,5 @@ for i in 0..2 do
     ob.instanceMethod
     puts( MyClass.showVars )
     puts( ob.showVars )
-puts MyClass.instance_variable_get(:@instvar)
+    puts MyClass.instance_variable_get(:@instvar)
 end

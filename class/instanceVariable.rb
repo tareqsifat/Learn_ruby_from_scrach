@@ -21,7 +21,7 @@ ob = MyClass.new
 puts MyClass.instance_variable_get(:@instvar)
 puts( '--------------' )
 for i in 0..2 do
-    # MyClass.classMethod
+    MyClass.classMethod
     ob.instanceMethod
     puts( "MyClass @instvar=#{MyClass.instance_variable_get(:@instvar)}")
     puts( "ob @instvar= #{ob.instance_variable_get(:@instvar)}" )
