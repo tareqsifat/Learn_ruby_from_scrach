@@ -1,1 +1,0 @@
-IO.foreach("testfile.txt") {|line| print( line ) }
