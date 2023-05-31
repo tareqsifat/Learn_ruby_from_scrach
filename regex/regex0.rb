@@ -5,7 +5,7 @@ else
 end
 
 
-p( /[abc]/ =~ 'xycba' )
+p( /[abc]/ =~ 'dayrueeiruwe2934893xycba' )
 
-p( /abc/ =~ 'xyzabcxyzabc' )
+p( /abc/ =~ 'xtyyuoiiutrxcgoyzabcxyzabc' )
 p( /abc/ =~ 'xycab' )
