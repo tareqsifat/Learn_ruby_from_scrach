@@ -8,4 +8,4 @@ end
 p( /[abc]/ =~ 'dayrueeiruwe2934893xycba' )
 
 p( /abc/ =~ 'xtyyuoiiutrxcgoyzabcxyzabc' )
-p( /abc/ =~ 'xycab' )
+p( /abc/ =~ 'xycabiiui' )
