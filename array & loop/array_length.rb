@@ -17,3 +17,4 @@ end
 
 x = [1+2, hello, `dir`]
 p x
+
